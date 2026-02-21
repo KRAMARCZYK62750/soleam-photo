@@ -1,0 +1,600 @@
+[
+  {
+    "question":"Mon objectif 18-55mm f\/5.6 ne permet pas de flou d\u2019arri\u00e8re-plan. Comment faire ?",
+    "answer":"Rapproche-toi au maximum du sujet (1-1.5m) et place-le loin du fond. \u00c0 55mm et f\/5.6, le bokeh sera visible si le fond est \u00e0 5m+. Sinon, utilise un logiciel pour flouter l\u2019arri\u00e8re-plan en post-traitement.",
+    "metadata":{
+      "gear":"kit lens",
+      "issue":"shallow DOF",
+      "location":"park",
+      "weather":"clear",
+      "time_of_day":"afternoon",
+      "difficulty":"basic"
+    }
+  },
+  {
+    "question":"Mes photos de nuit en street sont floues \u00e0 1\/60s. Que faire sans tr\u00e9pied ?",
+    "answer":"Monte en ISO (3200 max) et ouvre \u00e0 f\/3.5-5.6. Si ton objectif le permet, active la stabilisation. Sinon, appuie-toi contre un mur pour r\u00e9duire les vibrations.",
+    "metadata":{
+      "light":"low",
+      "gear":"any",
+      "issue":"motion blur",
+      "location":"downtown",
+      "weather":"clear",
+      "time_of_day":"night",
+      "difficulty":"intermediate"
+    }
+  },
+  {
+    "question":"Comment \u00e9viter les dominantes de couleur sous les r\u00e9verb\u00e8res ?",
+    "answer":"R\u00e8gle la balance des blancs sur \"lumi\u00e8re tungst\u00e8ne\" ou utilise le mode personnalis\u00e9. En RAW, corrige la teinte en post-traitement avec un curseur vers le bleu.",
+    "metadata":{
+      "light":"artificial",
+      "issue":"color cast",
+      "location":"urban",
+      "weather":"clear",
+      "time_of_day":"night",
+      "difficulty":"basic"
+    }
+  },
+  {
+    "question":"Mon 18-55mm est trop lent en int\u00e9rieur sombre. Que faire ?",
+    "answer":"Ouvre \u00e0 f\/3.5, monte en ISO (1600-3200), et ralentis la vitesse \u00e0 1\/30s en t\u2019appuyant sur un mur. \u00c9vite le flash pour garder l\u2019ambiance.",
+    "metadata":{
+      "gear":"kit lens",
+      "light":"low",
+      "location":"caf\u00e9",
+      "weather":"rainy",
+      "time_of_day":"evening",
+      "difficulty":"intermediate"
+    }
+  },
+  {
+    "question":"Mon objectif kit zoom trop lentement en AF. Comment faire ?",
+    "answer":"Pr\u00e9r\u00e8gle la mise au point en manuel sur une distance commune (2-3m) et utilise la zone de nettet\u00e9 (hyperfocale). Sinon, passe en AF simple et anticipes les sc\u00e8nes statiques.",
+    "metadata":{
+      "gear":"kit lens",
+      "issue":"slow AF",
+      "location":"urban",
+      "weather":"clear",
+      "time_of_day":"noon",
+      "difficulty":"intermediate"
+    }
+  },
+  {
+    "question":"Faut-il toujours shooter en RAW en street ?",
+    "answer":"Non, mais le RAW offre plus de flexibilit\u00e9 pour corriger l\u2019exposition ou la balance des blancs. Le JPEG est suffisant si tu ma\u00eetrises la lumi\u00e8re et les r\u00e9glages.",
+    "metadata":{
+      "gear":"any",
+      "style":"workflow",
+      "location":"urban",
+      "weather":"clear",
+      "time_of_day":"noon",
+      "difficulty":"basic"
+    }
+  },
+  {
+    "question":"Comment \u00e9viter les photos \"trop pos\u00e9es\" en street ?",
+    "answer":"Photographie sans regarder dans le viseur (\u00e0 la hanche), utilise un d\u00e9clencheur silencieux, et capture les moments o\u00f9 les sujets sont absorb\u00e9s par leur activit\u00e9.",
+    "metadata":{
+      "style":"candid",
+      "subject":"people",
+      "location":"urban",
+      "weather":"sunny",
+      "time_of_day":"noon",
+      "difficulty":"advanced"
+    }
+  },
+  {
+    "question":"Comment photographier des sc\u00e8nes de rue la nuit sans tr\u00e9pied ?",
+    "answer":"Augmente les ISO (3200-6400), ouvre \u00e0 f\/1.8-2.8, et utilise des vitesses lentes (1\/30s) en t\u2019appuyant sur un support. Les \u00e9clairages urbains (n\u00e9ons, vitrines) peuvent servir de sources de lumi\u00e8re.",
+    "metadata":{
+      "light":"night",
+      "gear":"fast lens",
+      "location":"downtown",
+      "weather":"clear",
+      "time_of_day":"night",
+      "difficulty":"advanced"
+    }
+  },
+  {
+    "question":"Comment diriger un mod\u00e8le timide pour un portrait urbain naturel ?",
+    "answer":"Encourage-le \u00e0 marcher ou \u00e0 s\u2019appuyer contre un mur, puis capture ses mouvements spontan\u00e9s. Utilise une focale moyenne (50-85mm) pour garder une distance confortable et \u00e9viter l\u2019effet \"pos\u00e9\".",
+    "metadata":{
+      "style":"portrait",
+      "subject":"people",
+      "location":"urban",
+      "weather":"clear",
+      "time_of_day":"golden hour",
+      "difficulty":"intermediate"
+    }
+  },
+  {
+    "question":"Quel objectif choisir pour des portraits urbains avec un APS-C ?",
+    "answer":"Un 35mm (\u00e9quivalent 50mm) ou un 50mm (\u00e9quivalent 85mm) pour un beau bokeh. \u00c9vite les grands angles qui d\u00e9forment les traits.",
+    "metadata":{
+      "gear":"APS-C",
+      "style":"portrait",
+      "location":"downtown",
+      "weather":"sunny",
+      "time_of_day":"afternoon",
+      "difficulty":"basic"
+    }
+  },
+  {
+    "question":"Comment g\u00e9rer la lumi\u00e8re dure en portrait urbain en milieu de journ\u00e9e ?",
+    "answer":"Place ton mod\u00e8le \u00e0 l\u2019ombre d\u2019un b\u00e2timent ou utilise un r\u00e9flecteur pour adoucir les ombres. Une exposition l\u00e9g\u00e8rement sous-expos\u00e9e (-0.3 EV) permet de sauver les d\u00e9tails en post-traitement.",
+    "metadata":{
+      "light":"harsh",
+      "style":"portrait",
+      "location":"urban",
+      "weather":"sunny",
+      "time_of_day":"noon",
+      "difficulty":"intermediate"
+    }
+  },
+  {
+    "question":"Comment isoler un sujet dans un environnement urbain charg\u00e9 ?",
+    "answer":"Ouvre \u00e0 f\/1.8-2.8 pour flouter l\u2019arri\u00e8re-plan, et rapproche-toi pour remplir le cadre. Cherche des fonds simples (murs, ciel) ou utilise une profondeur de champ r\u00e9duite.",
+    "metadata":{
+      "gear":"fast lens",
+      "style":"portrait",
+      "location":"urban",
+      "weather":"clear",
+      "time_of_day":"noon",
+      "difficulty":"advanced"
+    }
+  },
+  {
+    "question":"Comment \u00e9viter les dominantes de couleur sur les peaux en ville ?",
+    "answer":"Utilise une balance des blancs personnalis\u00e9e (grise 18%) ou shoot en RAW pour corriger en post-traitement. \u00c9vite les \u00e9clairages mixtes (n\u00e9ons + soleil).",
+    "metadata":{
+      "light":"mixed",
+      "issue":"color cast",
+      "style":"portrait",
+      "location":"urban",
+      "weather":"clear",
+      "time_of_day":"evening",
+      "difficulty":"intermediate"
+    }
+  },
+  {
+    "question":"Quelle est la meilleure distance pour un portrait urbain avec un 85mm ?",
+    "answer":"1.5 \u00e0 3 m\u00e8tres pour capturer les expressions sans d\u00e9formation. \u00c0 cette distance, le bokeh sera doux et le sujet bien mis en valeur.",
+    "metadata":{
+      "gear":"85mm",
+      "style":"portrait",
+      "location":"urban",
+      "weather":"sunny",
+      "time_of_day":"afternoon",
+      "difficulty":"basic"
+    }
+  },
+  {
+    "question":"Comment capturer des \u00e9motions authentiques en portrait urbain ?",
+    "answer":"Discute avec ton mod\u00e8le pour le mettre \u00e0 l\u2019aise, puis photographie-le lorsqu\u2019il rit ou regarde au loin. Les \"moments vol\u00e9s\" entre les poses sont souvent les meilleurs.",
+    "metadata":{
+      "style":"candid",
+      "subject":"people",
+      "location":"urban",
+      "weather":"clear",
+      "time_of_day":"golden hour",
+      "difficulty":"advanced"
+    }
+  },
+  {
+    "question":"Faut-il utiliser un flash en plein jour pour un portrait urbain ?",
+    "answer":"Oui, un flash cobra en \"fill-in\" (puissance r\u00e9duite) peut adoucir les ombres sous les yeux. Utilise un diffuseur pour \u00e9viter les reflets durs.",
+    "metadata":{
+      "light":"sunny",
+      "gear":"flash",
+      "style":"portrait",
+      "location":"urban",
+      "weather":"clear",
+      "time_of_day":"noon",
+      "difficulty":"advanced"
+    }
+  },
+  {
+    "question":"Comment composer avec les \u00e9l\u00e9ments urbains (graffitis, escaliers) ?",
+    "answer":"Int\u00e8gre-les comme cadre naturel : place ton mod\u00e8le devant un mur color\u00e9 ou utilise les lignes des escaliers pour guider le regard. \u00c9vite les \u00e9l\u00e9ments trop distractifs en arri\u00e8re-plan.",
+    "metadata":{
+      "style":"composition",
+      "subject":"people",
+      "location":"urban",
+      "weather":"clear",
+      "time_of_day":"afternoon",
+      "difficulty":"intermediate"
+    }
+  },
+  {
+    "question":"Comment photographier un portrait urbain en contre-jour ?",
+    "answer":"Surexpose l\u00e9g\u00e8rement (+0.7 EV) pour garder les d\u00e9tails du visage, ou utilise un flash pour \u00e9quilibrer la lumi\u00e8re. Un fond lumineux (ciel, vitrine) cr\u00e9e un effet dramatique.",
+    "metadata":{
+      "light":"backlit",
+      "style":"portrait",
+      "location":"urban",
+      "weather":"sunny",
+      "time_of_day":"sunset",
+      "difficulty":"advanced"
+    }
+  },
+  {
+    "question":"Quel r\u00e9glage AF pour des portraits urbains avec sujet en mouvement ?",
+    "answer":"Utilise l\u2019AF continu (AF-C) et le suivi des yeux si ton bo\u00eetier le permet. Pr\u00e9r\u00e8gle la mise au point sur la zone o\u00f9 le mod\u00e8le va passer.",
+    "metadata":{
+      "gear":"any",
+      "subject":"moving",
+      "style":"portrait",
+      "location":"urban",
+      "weather":"clear",
+      "time_of_day":"afternoon",
+      "difficulty":"advanced"
+    }
+  },
+  {
+    "question":"Comment \u00e9viter les reflets ind\u00e9sirables sur les lunettes en portrait urbain ?",
+    "answer":"Demande au mod\u00e8le d\u2019incliner l\u00e9g\u00e8rement la t\u00eate ou utilise un polariseur. En post-traitement, tu peux aussi cloner les reflets g\u00eanants.",
+    "metadata":{
+      "light":"reflective",
+      "issue":"glare",
+      "style":"portrait",
+      "location":"urban",
+      "weather":"sunny",
+      "time_of_day":"noon",
+      "difficulty":"intermediate"
+    }
+  },
+  {
+    "question":"Quels r\u00e9glages utiliser pour photographier des n\u00e9ons urbains la nuit ?",
+    "answer":"f\/2.8-4, ISO 800-1600, 1\/30s \u00e0 1\/2s selon la stabilit\u00e9. Utilise un tr\u00e9pied ou appuie-toi sur un mur. Les n\u00e9ons offrent une lumi\u00e8re color\u00e9e id\u00e9ale pour des ambiances cin\u00e9matographiques.",
+    "metadata":{
+      "light":"night",
+      "gear":"any",
+      "style":"creative",
+      "location":"downtown",
+      "weather":"clear",
+      "time_of_day":"night",
+      "difficulty":"intermediate"
+    }
+  },
+  {
+    "question":"Comment \u00e9viter le bruit num\u00e9rique en photo de nuit sans tr\u00e9pied ?",
+    "answer":"Monte en ISO (max 6400), ouvre \u00e0 f\/1.8-2.8, et utilise la stabilisation si disponible. En post-traitement, r\u00e9duis le bruit avec un logiciel (ex: Topaz Denoise).",
+    "metadata":{
+      "light":"low",
+      "issue":"noise",
+      "location":"urban",
+      "weather":"clear",
+      "time_of_day":"night",
+      "difficulty":"intermediate"
+    }
+  },
+  {
+    "question":"Comment photographier des tra\u00een\u00e9es de lumi\u00e8re (voitures) en ville ?",
+    "answer":"Utilise un tr\u00e9pied, une vitesse lente (2-10s), et un d\u00e9clencheur retard\u00e9 pour \u00e9viter les vibrations. Une ouverture \u00e0 f\/8-11 donne des tra\u00een\u00e9es nettes.",
+    "metadata":{
+      "style":"light trails",
+      "location":"urban",
+      "weather":"clear",
+      "time_of_day":"night",
+      "difficulty":"advanced"
+    }
+  },
+  {
+    "question":"Quel objectif pour des portraits de nuit en ville ?",
+    "answer":"Un 35mm ou 50mm f\/1.4-1.8 pour capter assez de lumi\u00e8re et isoler le sujet. \u00c9vite les zooms lents (ex: 18-55mm \u00e0 f\/5.6).",
+    "metadata":{
+      "gear":"fast lens",
+      "style":"portrait",
+      "location":"urban",
+      "weather":"clear",
+      "time_of_day":"night",
+      "difficulty":"basic"
+    }
+  },
+  {
+    "question":"Comment g\u00e9rer la balance des blancs en photo de nuit urbaine ?",
+    "answer":"Utilise le mode \"lumi\u00e8re tungst\u00e8ne\" pour les r\u00e9verb\u00e8res, ou shoot en RAW pour ajuster en post-traitement. Les \u00e9clairages urbains m\u00e9langent souvent des teintes chaudes et froides.",
+    "metadata":{
+      "light":"artificial",
+      "issue":"color cast",
+      "location":"urban",
+      "weather":"clear",
+      "time_of_day":"night",
+      "difficulty":"basic"
+    }
+  },
+  {
+    "question":"Comment photographier un sujet \u00e9clair\u00e9 par un r\u00e9verb\u00e8re ?",
+    "answer":"Mesure l\u2019exposition sur le visage du sujet, puis surexpose l\u00e9g\u00e8rement (+0.3 EV) pour \u00e9quilibrer avec l\u2019arri\u00e8re-plan sombre. Un r\u00e9flecteur peut aider \u00e0 \u00e9clairer les ombres.",
+    "metadata":{
+      "light":"artificial",
+      "style":"portrait",
+      "location":"urban",
+      "weather":"clear",
+      "time_of_day":"night",
+      "difficulty":"intermediate"
+    }
+  },
+  {
+    "question":"Quels r\u00e9glages pour photographier des \u00e9clairs en ville la nuit ?",
+    "answer":"Utilise un tr\u00e9pied, une ouverture \u00e0 f\/8, ISO 100, et une pose longue (10-30s). D\u00e9clenche avec un intervalom\u00e8tre ou une t\u00e9l\u00e9commande pour \u00e9viter les vibrations.",
+    "metadata":{
+      "weather":"stormy",
+      "light":"night",
+      "location":"urban",
+      "difficulty":"advanced"
+    }
+  },
+  {
+    "question":"Comment \u00e9viter que le vent ne fasse bouger l\u2019appareil en photo de nuit ?",
+    "answer":"Utilise un tr\u00e9pied lourd ou accroche un poids (ex: sac) \u00e0 la colonne centrale. Active la stabilisation si tu shootes \u00e0 main lev\u00e9e.",
+    "metadata":{
+      "weather":"windy",
+      "light":"night",
+      "location":"urban",
+      "difficulty":"basic"
+    }
+  },
+  {
+    "question":"Comment photographier des ombres port\u00e9es par temps de brouillard ?",
+    "answer":"Surexpose l\u00e9g\u00e8rement (+0.7 EV) pour r\u00e9v\u00e9ler les d\u00e9tails dans les ombres. Un objectif grand-angle (24mm) capture l\u2019atmosph\u00e8re enveloppante.",
+    "metadata":{
+      "weather":"foggy",
+      "light":"low",
+      "location":"urban",
+      "difficulty":"intermediate"
+    }
+  },
+  {
+    "question":"Quels r\u00e9glages pour des portraits urbains par temps de neige ?",
+    "answer":"Utilise un r\u00e9flecteur pour \u00e9clairer les visages, ou surexpose de +1 EV. \u00c9vite les fonds blancs pour garder du contraste.",
+    "metadata":{
+      "weather":"snowy",
+      "style":"portrait",
+      "location":"urban",
+      "difficulty":"intermediate"
+    }
+  },
+  {
+    "question":"Comment photographier des musiciens de rue en mouvement ?",
+    "answer":"AF continu, vitesse 1\/500s, et ouverture \u00e0 f\/2.8 pour isoler le sujet. Anticipe les moments cl\u00e9s (ex: souffle dans un instrument) en d\u00e9clenchant en rafale.",
+    "metadata":{
+      "subject":"people",
+      "location":"street",
+      "difficulty":"advanced"
+    }
+  },
+  {
+    "question":"Comment photographier des foules en mouvement (ex: sortie de concert) ?",
+    "answer":"Utilise une vitesse lente (1\/30s) pour sugg\u00e9rer le mouvement, ou fige les sujets avec 1\/1000s. Un grand-angle (24mm) capture l\u2019ampleur de la sc\u00e8ne.",
+    "metadata":{
+      "subject":"crowd",
+      "location":"event",
+      "time_of_day":"night",
+      "difficulty":"intermediate"
+    }
+  },
+  {
+    "question":"Comment \u00e9viter les probl\u00e8mes de droits \u00e0 l\u2019image dans un \u00e9v\u00e9nement public ?",
+    "answer":"Floute les visages en post-traitement si n\u00e9cessaire, ou photographie les sc\u00e8nes larges o\u00f9 les individus ne sont pas reconnaissables.",
+    "metadata":{
+      "subject":"people",
+      "location":"event",
+      "ethics":"sensitive",
+      "difficulty":"basic"
+    }
+  },
+  {
+    "question":"Comment capturer l\u2019ambiance d\u2019un festival de rue la nuit ?",
+    "answer":"Utilise un tr\u00e9pied pour les poses longues (1-5s) et capture les tra\u00een\u00e9es de lumi\u00e8re. Pour les portraits, monte en ISO (3200) et ouvre \u00e0 f\/1.8.",
+    "metadata":{
+      "light":"night",
+      "location":"event",
+      "difficulty":"advanced"
+    }
+  },
+  {
+    "question":"Quels r\u00e9glages pour photographier des feux d\u2019artifice en ville ?",
+    "answer":"Tr\u00e9pied, ouverture \u00e0 f\/8-11, ISO 100, et pose longue (2-10s). Utilise un d\u00e9clencheur retard\u00e9 pour \u00e9viter les vibrations.",
+    "metadata":{
+      "light":"night",
+      "location":"event",
+      "difficulty":"intermediate"
+    }
+  },
+  {
+    "question":"Comment photographier des ponts urbains la nuit ?",
+    "answer":"Tr\u00e9pied, ouverture \u00e0 f\/8, et pose longue (5-30s) pour capturer les tra\u00een\u00e9es de lumi\u00e8re. Utilise un d\u00e9clencheur retard\u00e9 pour \u00e9viter les vibrations.",
+    "metadata":{
+      "light":"night",
+      "location":"urban",
+      "difficulty":"advanced"
+    }
+  },
+  {
+    "question":"Comment photographier l\u2019int\u00e9rieur d\u2019une gare ou d\u2019un m\u00e9tro ?",
+    "answer":"Monte en ISO (1600-3200) et ouvre \u00e0 f\/2.8-4. Utilise la stabilisation si la lumi\u00e8re est faible. Les sym\u00e9tries et lignes directrices sont des sujets forts.",
+    "metadata":{
+      "light":"artificial",
+      "location":"subway",
+      "difficulty":"intermediate"
+    }
+  },
+  {
+    "question":"Quels r\u00e9glages pour photographier dans le m\u00e9tro sans flash ?",
+    "answer":"ISO 3200-6400, ouverture \u00e0 f\/1.8-2.8, et vitesse 1\/60s. Appuie-toi contre un mur pour stabiliser l\u2019appareil. Les \u00e9clairages artificiels cr\u00e9ent des ambiances color\u00e9es.",
+    "metadata":{
+      "light":"artificial",
+      "location":"subway",
+      "difficulty":"advanced"
+    }
+  },
+  {
+    "question":"Comment capturer un artiste en train de peindre un mural ?",
+    "answer":"Demande la permission, utilise un 50mm pour les portraits, et photographie les d\u00e9tails (pinceaux, couleurs) pour contextualiser.",
+    "metadata":{
+      "subject":"people",
+      "location":"urban",
+      "difficulty":"intermediate"
+    }
+  },
+  {
+    "question":"Comment utiliser un \u00e9clairage lat\u00e9ral (ex: r\u00e9verb\u00e8re) pour sculpter les traits en portrait de nuit ?",
+    "answer":"Place ton mod\u00e8le \u00e0 45\u00b0 de la source lumineuse pour cr\u00e9er des ombres marqu\u00e9es. Utilise un r\u00e9flecteur ou un flash \"fill-in\" (puissance r\u00e9duite) pour adoucir les contrastes. Une ouverture \u00e0 f\/2.8 isole le sujet.",
+    "metadata":{
+      "style":"portrait",
+      "light":"artificial",
+      "location":"urban",
+      "time_of_day":"night",
+      "difficulty":"advanced",
+      "theme":"night_portrait"
+    }
+  },
+  {
+    "question":"Quels r\u00e9glages pour un portrait en noir et blanc la nuit avec un 85mm f\/1.8 ?",
+    "answer":"f\/1.8, ISO 1600, 1\/250s. Surexpose l\u00e9g\u00e8rement (+0.3 EV) pour garder les d\u00e9tails dans les ombres. En post-traitement, augmente le contraste et la clart\u00e9 pour un rendu dramatique.",
+    "metadata":{
+      "gear":"85mm",
+      "style":"B&W portrait",
+      "location":"downtown",
+      "time_of_day":"night",
+      "difficulty":"intermediate",
+      "theme":"night_portrait"
+    }
+  },
+  {
+    "question":"Comment \u00e9viter les yeux rouges en portrait de nuit avec un flash ?",
+    "answer":"Utilise un flash externe (pas le flash int\u00e9gr\u00e9) et demande au mod\u00e8le de ne pas regarder directement la source. Un pr\u00e9-flash ou un \u00e9clairage ambiant r\u00e9duit l\u2019effet.",
+    "metadata":{
+      "gear":"flash",
+      "style":"portrait",
+      "location":"urban",
+      "time_of_day":"night",
+      "difficulty":"basic",
+      "theme":"low_light_technique"
+    }
+  },
+  {
+    "question":"Comment photographier un couple en mouvement dans une rue \u00e9clair\u00e9e la nuit ?",
+    "answer":"AF continu, vitesse 1\/125s, ouverture \u00e0 f\/2.8. Suis le mouvement des sujets et d\u00e9clenche en rafale. Les \u00e9clairages urbains (n\u00e9ons) ajoutent une ambiance color\u00e9e.",
+    "metadata":{
+      "subject":"moving",
+      "style":"portrait",
+      "location":"urban",
+      "time_of_day":"night",
+      "difficulty":"advanced",
+      "theme":"night_portrait"
+    }
+  },
+  {
+    "question":"Comment capturer les d\u00e9tails d\u2019un visage avec un \u00e9clairage de No\u00ebl en arri\u00e8re-plan ?",
+    "answer":"Mesure l\u2019exposition sur le visage, puis surexpose de +0.7 EV pour \u00e9quilibrer avec les lumi\u00e8res. Un objectif macro (50mm) capture les d\u00e9tails des d\u00e9corations.",
+    "metadata":{
+      "light":"artificial",
+      "style":"portrait",
+      "location":"urban",
+      "time_of_day":"night",
+      "difficulty":"intermediate",
+      "theme":"night_portrait"
+    }
+  },
+  {
+    "question":"Comment cr\u00e9er un effet \"cin\u00e9matographique\" pour un portrait de nuit avec un smartphone ?",
+    "answer":"Active le mode \"nuit\" et utilise une app manuelle (ex: ProCamera) pour contr\u00f4ler l\u2019ISO (max 3200) et la vitesse (1\/30s). Ajoute un filtre orange en post-traitement pour un rendu filmique.",
+    "metadata":{
+      "gear":"smartphone",
+      "style":"cinematic portrait",
+      "location":"urban",
+      "time_of_day":"night",
+      "difficulty":"basic",
+      "theme":"low_light_technique"
+    }
+  },
+  {
+    "question":"Comment g\u00e9rer la balance des blancs pour un portrait sous des \u00e9clairages LED color\u00e9s ?",
+    "answer":"Shoote en RAW et ajuste la temp\u00e9rature de couleur en post-traitement (ex: 3500K pour des tons chauds). \u00c9vite les dominantes vertes en corrigeant la teinte.",
+    "metadata":{
+      "light":"artificial",
+      "issue":"color cast",
+      "style":"portrait",
+      "location":"urban",
+      "time_of_day":"night",
+      "difficulty":"intermediate",
+      "theme":"low_light_technique"
+    }
+  },
+  {
+    "question":"Comment photographier un musicien de rue la nuit sans surexposer les lumi\u00e8res ?",
+    "answer":"Utilise la mesure spot sur le visage, ou sous-expose de -0.7 EV. Un fond sombre (ex: mur) mettra en valeur le sujet.",
+    "metadata":{
+      "subject":"people",
+      "light":"mixed",
+      "style":"portrait",
+      "location":"street",
+      "time_of_day":"night",
+      "difficulty":"advanced",
+      "theme":"night_portrait"
+    }
+  },
+  {
+    "question":"Comment utiliser les ombres port\u00e9es pour un portrait dramatique en ville la nuit ?",
+    "answer":"Place ton mod\u00e8le pr\u00e8s d\u2019un mur \u00e9clair\u00e9 par un r\u00e9verb\u00e8re pour cr\u00e9er des ombres nettes. Une contre-plong\u00e9e accentue l\u2019effet.",
+    "metadata":{
+      "style":"dramatic portrait",
+      "light":"artificial",
+      "location":"urban",
+      "time_of_day":"night",
+      "difficulty":"intermediate",
+      "theme":"night_portrait"
+    }
+  },
+  {
+    "question":"Quels accessoires utiliser pour un portrait de nuit avec un \u00e9quipement l\u00e9ger ?",
+    "answer":"Un tr\u00e9pied compact (ex: GorillaPod), un objectif lumineux (35mm f\/1.8), et un petit r\u00e9flecteur. Un d\u00e9clencheur \u00e0 distance \u00e9vite les vibrations.",
+    "metadata":{
+      "gear":"lightweight",
+      "style":"portrait",
+      "location":"urban",
+      "time_of_day":"night",
+      "difficulty":"basic",
+      "theme":"low_light_technique"
+    }
+  },
+  {
+    "question":"Comment photographier un portrait avec des tra\u00een\u00e9es de lumi\u00e8re en arri\u00e8re-plan ?",
+    "answer":"Pose longue (2-5s), tr\u00e9pied, et ouverture \u00e0 f\/8. Demande au mod\u00e8le de rester immobile pendant la pose. Les phares des voitures cr\u00e9ent des tra\u00een\u00e9es dynamiques.",
+    "metadata":{
+      "style":"light trails portrait",
+      "location":"urban",
+      "time_of_day":"night",
+      "difficulty":"advanced",
+      "theme":"night_portrait"
+    }
+  },
+  {
+    "question":"Comment \u00e9viter le bruit num\u00e9rique dans les ombres d\u2019un portrait de nuit ?",
+    "answer":"Monte en ISO par paliers (teste 1600, 3200, 6400) et utilise un logiciel de r\u00e9duction de bruit (ex: DxO PhotoLab). \u00c9vite de trop pousser les ombres en post-traitement.",
+    "metadata":{
+      "light":"low",
+      "issue":"noise",
+      "style":"portrait",
+      "location":"urban",
+      "time_of_day":"night",
+      "difficulty":"intermediate",
+      "theme":"low_light_technique"
+    }
+  },
+  {
+    "question":"Comment diriger un mod\u00e8le pour un portrait spontan\u00e9 dans un bar sombre ?",
+    "answer":"Photographie les \"moments vol\u00e9s\" (ex: rire, regard vers un verre) avec un 50mm f\/1.8. Utilise la lumi\u00e8re disponible (ex: bougies, n\u00e9ons) pour une ambiance naturelle.",
+    "metadata":{
+      "style":"candid portrait",
+      "light":"low",
+      "location":"bar",
+      "time_of_day":"night",
+      "difficulty":"advanced",
+      "theme":"night_portrait"
+    }
+  }
+]

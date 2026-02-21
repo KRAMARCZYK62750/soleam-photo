@@ -1,0 +1,76 @@
+{
+  "id": "emotion_colere_v1",
+  "name": "colère",
+  "family": "agitation",
+  "valence": -0.8,
+  "arousal": 0.9,
+  "description": "Onde circulaire sombre, épaisse, comme de l'eau poisseuse ou du goudron bleu nuit qui se propage par cercles concentriques.",
+  "visual": {
+    "primary_color": "#04041A",
+    "secondary_color": "#0B1028",
+    "brightness": 0.12,
+    "contrast": 0.85,
+    "opacity": 0.94,
+    "texture": "visqueux, épais, proche du goudron liquide",
+    "shape": "ondes circulaires concentriques",
+    "edges": "flous au centre, plus tranchés en périphérie"
+  },
+  "motion": {
+    "type": "onde_circulaire",
+    "origin": "centre du champ",
+    "direction": "expansion_radiale",
+    "speed": 0.65,
+    "acceleration": 0.15,
+    "rhythm": "pulsations irrégulières, plus fortes par à-coups",
+    "density": 0.92,
+    "viscosity": 0.95
+  },
+  "sound": {
+    "timbre": "grave, sourd, légèrement métallique",
+    "base_frequency_hz": 38,
+    "harmonics_level": 0.25,
+    "attack": 0.8,
+    "decay": 0.6,
+    "rumble": 0.7,
+    "pattern": "grondement continu avec pics brefs plus agressifs"
+  },
+  "body_mapping": {
+    "pressure": "thorax et mâchoire",
+    "temperature": "chaleur interne avec surface froide",
+    "breath": "bloquée puis expirations brusques",
+    "muscles": "tension dans épaules, cou, mains"
+  },
+  "cognitive_colors": {
+    "focus": "très étroit, centré sur le problème ou l'obstacle",
+    "narrative": "injustice, frustration, obstacle à la volonté",
+    "tendance_action": "rupture, protection, confrontation"
+  },
+  "synesthetic_profile": {
+    "kandinsky_reference": "Impression 3 – Vassily Kandinsky",
+    "geometry": "chocs de formes, angles, lignes rayonnantes",
+    "intensity_palette": [
+      "#02000C",
+      "#04041A",
+      "#0F1533",
+      "#1C2147",
+      "#FF2B2B"
+    ]
+  },
+  "tags": [
+    "colère",
+    "agitation",
+    "protection",
+    "onde",
+    "eau sombre",
+    "goudron",
+    "bleu_nuit"
+  ],
+  "embedding_hint": {
+    "text_for_embedding": "Colère ressentie comme une onde circulaire sombre et poisseuse, bleu nuit, proche du goudron liquide, qui se propage par cercles concentriques, dense, chaude à l'intérieur, avec un grondement grave et sourd.",
+    "vector_space": "emotions_semantic_384d",
+    "qdrant_collection": "emotions_orelia"
+  },
+  "version": 1,
+  "created_by": "frederic_and_orelia",
+  "created_at": "2025-11-30"
+}

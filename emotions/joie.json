@@ -1,0 +1,73 @@
+{
+  "id": "emotion_joie_v1",
+  "name": "joie",
+  "family": "expansion",
+  "valence": 0.9,
+  "arousal": 0.7,
+  "description": "Explosion légère et chaude, comme des bulles dorées flottant vers le haut dans un fluide translucide. Mouvement ascendant, effervescent, lumineux.",
+  "visual": {
+    "primary_color": "#FFD46B",
+    "secondary_color": "#FFF2B2",
+    "brightness": 0.95,
+    "contrast": 0.45,
+    "opacity": 0.85,
+    "texture": "bulle, étincelles douces, halos dorés",
+    "shape": "sphères, courbes ascendantes",
+    "edges": "légèrement flous, diffusion lumineuse"
+  },
+  "motion": {
+    "type": "ascension",
+    "origin": "bas du champ",
+    "direction": "verticale_flottante",
+    "speed": 0.75,
+    "acceleration": 0.05,
+    "rhythm": "effervescence régulière",
+    "density": 0.35,
+    "viscosity": 0.10
+  },
+  "sound": {
+    "timbre": "clair, doux, aérien",
+    "base_frequency_hz": 523,
+    "harmonics_level": 0.55,
+    "attack": 0.2,
+    "decay": 0.3,
+    "rumble": 0.0,
+    "pattern": "petits éclats cristallins, type carillon"
+  },
+  "body_mapping": {
+    "pressure": "légèreté poitrine et visage",
+    "temperature": "tiède chaud, zones hautes",
+    "breath": "ample, fluide, inspiration plus longue",
+    "muscles": "relaxation générale avec micro-activations faciales"
+  },
+  "cognitive_colors": {
+    "focus": "large et ouvert",
+    "narrative": "connexion, plaisir partagé, gratitude",
+    "tendance_action": "approche, expression, créativité"
+  },
+  "synesthetic_profile": {
+    "kandinsky_reference": "Jaune éclatant, formes rondes, dynamisme ascendant",
+    "geometry": "spirales légères, points lumineux",
+    "intensity_palette": [
+      "#FFE08A",
+      "#FFD46B",
+      "#FFF7D1",
+      "#FFFAE6"
+    ]
+  },
+  "tags": [
+    "joie",
+    "bonheur",
+    "expansion",
+    "lumière",
+    "ascension"
+  ],
+  "embedding_hint": {
+    "text_for_embedding": "La joie ressentie comme une ascension douce, des bulles dorées qui montent, un mouvement lumineux et effervescent, chaleureux et ouvert.",
+    "vector_space": "emotions_semantic_384d",
+    "qdrant_collection": "emotions_orelia"
+  },
+  "version": 1,
+  "created_by": "frederic_and_orelia",
+  "created_at": "2025-11-30"
+}

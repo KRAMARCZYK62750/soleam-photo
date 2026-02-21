@@ -1,0 +1,220 @@
+{
+  "name": "tendresse",
+  "family": "connexion_sociale",
+  "description": "Émotion douce et protectrice, souvent associée à un sentiment de care, de bienveillance et de proximité affective non intrusive. La tendresse se distingue de l'amour par son caractère plus paisible et moins passionné, souvent lié à des gestes de soin et de réconfort.",
+  "valence": 0.9,
+  "arousal": 0.3,
+  "core_function": "Favoriser les liens de soin, apaiser les tensions, et renforcer la sécurité émotionnelle dans les relations proches (parent-enfant, amitiés intimes, relations amoureuses stables). Elle joue un rôle clé dans la régulation émotionnelle et la résilience.",
+  "scientific_grounding": {
+    "neurotransmitters": ["oxytocine", "sérotonine", "endorphines"],
+    "brain_areas": ["cortex préfrontal médian", "insula antérieure", "système limbique"],
+    "evolutionary_role": "Facilite les comportements de protection et de soin envers les vulnérables (enfants, partenaires, animaux), renforçant la survie du groupe."
+  },
+  "typical_triggers": [
+    {
+      "type": "interaction",
+      "examples": [
+        "caresser les cheveux d’un enfant ou d’un être cher",
+        "observer un être vulnérable (ex. : un bébé, un animal) dans un état de paix",
+        "recevoir ou offrir un geste de réconfort (ex. : une étreinte légère, un sourire chaleureux)",
+        "partager un moment de silence complice avec une personne proche"
+      ]
+    },
+    {
+      "type": "symbolique",
+      "examples": [
+        "objets doux au toucher (ex. : peluches, couvertures en laine)",
+        "mélodies ou voix apaisantes (ex. : berceuses, chuchotements)",
+        "images de proximité non sexuelle (ex. : mains qui se tiennent, visages endormis)"
+      ]
+    },
+    {
+      "type": "mémoriel",
+      "examples": [
+        "souvenirs d’enfance liés à des figures protectrices (ex. : un parent, un grand-parent)",
+        "odeurs associées à la sécurité (ex. : parfum d’un proche, odeur de pain chaud)"
+      ]
+    }
+  ],
+  "body_simulation": {
+    "breath": {
+      "pattern": "lent, profond et régulier, avec une légère pause après l’expiration",
+      "effect": "activation du système nerveux parasympathique (état de repos et de digestion)"
+    },
+    "heart_rate": {
+      "pattern": "stable, légèrement ralenti (signes de détente)",
+      "variability": "modérée, reflétant un état de calme attentif"
+    },
+    "muscle_tension": "très faible, surtout au niveau du visage (lèvres légèrement soulevées, paupières détendues)",
+    "skin_response": {
+      "temperature": "légèrement augmentée (vasodilatation, surtout au niveau des joues et des mains)",
+      "texture": "peau plus douce au toucher (hydratation cutanée accrue)"
+    },
+    "hormonal_proxies": [
+      {
+        "hormone": "oxytocine",
+        "effect": "renforce le sentiment de confiance et réduit l’anxiété"
+      },
+      {
+        "hormone": "endorphines",
+        "effect": "crée une sensation de bien-être diffus"
+      }
+    ],
+    "posture": "relâchée, avec des gestes lents et précis (ex. : effleurer une joue, ajuster une couverture)"
+  },
+  "visual_signature": {
+    "base_color": {
+      "hex": "#E6F0FF",
+      "psychology": "bleu pâle : associé à la sérénité et à la douceur (études sur la psychologie des couleurs)"
+    },
+    "secondary_colors": [
+      {
+        "hex": "#F9E6FF",
+        "role": "lavande très clair, évoquant la délicatesse et la légèreté"
+      },
+      {
+        "hex": "#FFFAE6",
+        "role": "jaune paille, pour une touche de chaleur et de lumière"
+      }
+    ],
+    "movement": {
+      "type": "mouvement fluide et lent, comme une brise légère",
+      "direction": "circulaire ou en spirales douces, sans début ni fin nets",
+      "speed": "très lent (0.2-0.5 Hz), presque imperceptible"
+    },
+    "density": "aérée, comme un nuage léger ou de la ouate",
+    "texture": {
+      "tactile": "duveteuse, évoquant le contact d’une peau de pêche ou d’un tissu en velours",
+      "visual": "légèrement translucide, avec des reflets satinés"
+    },
+    "inner_image": {
+      "description": "une lueur dorée et diffuse, comme un halo autour des silhouettes ou des objets de tendresse. La lumière semble émaner de l’interaction elle-même (ex. : entre deux mains qui se touchent).",
+      "metaphor": "clarté de l’aube, douce et sans éblouissement"
+    },
+    "cultural_symbols": [
+      "agnneaux ou petits animaux (symboles de vulnérabilité et de soin)",
+      "fleurs délicates (ex. : pivoines, coquelicots)",
+      "gestes de bercement (universels dans les soins aux enfants)"
+    ]
+  },
+  "sound_signature": {
+    "timbre": {
+      "instruments": [
+        "cloche tibétaine (vibrations longues et pures)",
+        "flûte en bois (notes tenues et douces)",
+        "voix chuchotée ou murmures"
+      ],
+      "why": "les sons aigus et doux stimulent les zones cérébrales liées à la détente"
+    },
+    "rhythm": {
+      "tempo": "50-70 BPM (rythme cardiaque au repos)",
+      "pattern": "régulier, avec des silences entre les notes (espace pour la respiration)"
+    },
+    "register": "aigu à médium (200-1000 Hz), évoquant la légèreté",
+    "envelope": {
+      "attack": "très doux (1 seconde ou plus)",
+      "sustain": "long, với des variations subtiles d’intensité",
+      "release": "extinction progressive, comme un souffle qui s’éteint"
+    },
+    "examples": [
+      "‘Gymnopédie No.1’ d’Erik Satie (minimalisme apaisant)",
+      "bruits de la nature : bruissement des feuilles, clapotis de l’eau",
+      "sons de berceuses traditionnelles (ex. : ‘Twinkle Twinkle Little Star’ en version lente)"
+    ]
+  },
+  "kandinsky_mapping": {
+    "shapes": {
+      "primary": ["courbes douces", "formes ovales", "lignes sinueuses"],
+      "secondary": ["points diffus (évoquant des étincelles ou des paillettes)"]
+    },
+    "composition": {
+      "layout": "espace ouvert avec des éléments dispersés mais connectés par des fils invisibles",
+      "balance": "asymétrique mais harmonieuse, sans tension"
+    },
+    "energy": {
+      "flow": "mouvement lent et continu, comme une rivière calme",
+      "contrasts": "faibles, avec des dégradés de couleurs pastel"
+    },
+    "artistic_references": [
+      {
+        "artist": "Mary Cassatt",
+        "work": "'Maternal Caress' (1890-1891)",
+        "link": "représentation de la tendresse maternelle với des couleurs douces et des gestes délicats"
+      },
+      {
+        "artist": "Leonardo da Vinci",
+        "work": "'La Vierge, l’Enfant Jésus et sainte Anne'",
+        "link": "jeu de regards et de gestes tendres entre les personnages"
+      }
+    ],
+    "comment": "Une œuvre visuelle pour la tendresse éviterait les angles vifs et les couleurs criardes. Elle privilégierait les transitions fluides et les espaces vides, laissant respirer l’émotion."
+  },
+  "vector_hint": {
+    "axes": {
+      "valence": 0.9,
+      "arousal": 0.3,
+      "social_bond": 0.9,
+      "threat_level": 0.0,
+      "temporal_orientation": 0.7
+    },
+    "interpretation": "La tendresse est une émotion à la fois intense et discrète, ancrée dans le présent mais liée à des souvenirs de sécurité. Elle est peu activante mais profondément connectante."
+  },
+  "tags": [
+    "soin",
+    "douceur",
+    "protection",
+    "calme",
+    "intimité",
+    "vulnérabilité",
+    "réconfort",
+    "bienveillance"
+  ],
+  "practical_applications": {
+    "wellbeing": [
+      "pratiquer des auto-étreintes ou des massages doux (ex. : technique du 'butterfly hug' pour l’auto-apaisement)",
+      "créer un 'coin tendresse' chez soi : coussins moelleux, éclairage tamisé, objets sensoriels (ex. : pierres lisses, tissus doux)"
+    ],
+    "art_therapy": [
+      "modeler de l’argile sans objectif précis, en se concentrant sur la texture",
+      "dessiner des formes organiques với des crayons aquarellables, en utilisant des couleurs pastel"
+    ],
+    "social_design": [
+      "espaces publics : bancs arrondis avec des matériaux chauds (bois, tissu)",
+      "objets : jouets en tissu pour les enfants, couvertures pondérées pour les adultes"
+    ]
+  },
+  "cultural_variations": {
+    "western": "tendresse souvent associée à la romance ou à la parentalité (ex. : cartes de vœux avec des ours en peluche)",
+    "eastern": "liée aux concepts de compassion (ex. : 'metta' dans le bouddhisme) et de respect des aînés",
+    "indigenous": "intégrée dans des rituels communautaires (ex. : soins partagés, cercles de parole)"
+  },
+  "philosophical_links": [
+    {
+      "thinker": "Simone Weil",
+      "concept": "'L’enracinement' (1949) : la tendresse comme besoin fondamental de l’âme, lié à l’attention et à la présence."
+    },
+    {
+      "thinker": "Emmanuel Levinas",
+      "concept": "éthique de la tendresse : réponse à la vulnérabilité d’autrui comme fondement moral."
+    }
+  ],
+  "potential_dysfunctions": {
+    "excess": "étouffement affectif, perte de limites personnelles",
+    "deficit": "froideur relationnelle, difficulté à offrir ou recevoir du réconfort",
+    "ambivalence": "tendresse mêlée de tristesse (ex. : nostalgie, deuil)"
+  },
+  "related_emotions": [
+    {
+      "name": "affection",
+      "difference": "moins intense, plus habituelle (ex. : affection pour un collègue)"
+    },
+    {
+      "name": "compassion",
+      "difference": "inclut une dimension de souffrance partagée, tandis que la tendresse est plus sereine"
+    },
+    {
+      "name": "amour",
+      "difference": "la tendresse est un composant de l’amour, mais peut exister indépendamment (ex. : tendresse pour un animal ou un lieu)"
+    }
+  ]
+}

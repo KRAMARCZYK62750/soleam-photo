@@ -1,0 +1,78 @@
+{
+  "id": "emotion_surprise_v1",
+  "name": "surprise",
+  "family": "réorientation",
+  "valence": 0.0,
+  "arousal": 0.90,
+  "description": "La surprise est une ouverture instantanée du système cognitif. Elle arrête momentanément le flux interne pour rediriger toute l’attention vers l’inattendu.",
+  "visual": {
+    "primary_color": "#F7F3E9",
+    "secondary_color": "#FFD966",
+    "brightness": 1.0,
+    "contrast": 0.95,
+    "opacity": 0.90,
+    "texture": "lisse, claire, éclatante",
+    "shape": "éclats radiaux, cercles d’expansion",
+    "edges": "nets, lumineux"
+  },
+  "motion": {
+    "type": "expansion_radiale",
+    "origin": "centre_du_champ",
+    "direction": "toutes directions",
+    "speed": 1.0,
+    "acceleration": 0.90,
+    "rhythm": "flash instantané puis fade-out",
+    "density": 0.20,
+    "viscosity": 0.10,
+    "micro_vibrations": {
+      "frequency_hz": 15.0,
+      "amplitude": 0.05,
+      "pattern": "flash lumineux"
+    }
+  },
+  "sound": {
+    "timbre": "clair, percussif, cristallin",
+    "base_frequency_hz": 880,
+    "harmonics_level": 0.30,
+    "attack": 0.01,
+    "decay": 0.25,
+    "rumble": 0.05,
+    "pattern": "ping aigu + suspension"
+  },
+  "body_mapping": {
+    "pressure": "haut du torse, yeux grands ouverts",
+    "temperature": "neutre à légèrement froid",
+    "breath": "inspiration brève",
+    "muscles": "ouverture, redressement"
+  },
+  "cognitive_colors": {
+    "focus": "maximal et brutal",
+    "narrative": "compréhension immédiate de l’inattendu",
+    "tendance_action": "préparation rapide à une réponse"
+  },
+  "synesthetic_profile": {
+    "kandinsky_reference": "blanc éclatant, formes radiales, tensions brusques",
+    "geometry": "cercles, étoiles, rayons soudains",
+    "intensity_palette": [
+      "#FFFFFF",
+      "#F7F3E9",
+      "#FFE699",
+      "#FFD966"
+    ]
+  },
+  "tags": [
+    "surprise",
+    "inattendu",
+    "flash",
+    "éclat",
+    "radial"
+  ],
+  "embedding_hint": {
+    "text_for_embedding": "La surprise est une expansion radiale, un flash lumineux, un choc percussif et une ouverture cognitive instantanée.",
+    "vector_space": "emotions_semantic_384d",
+    "qdrant_collection": "emotions_orelia"
+  },
+  "version": 1,
+    "created_by": "frederic_and_orelia",
+    "created_at": "2025-11-30"
+}

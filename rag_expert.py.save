@@ -1,0 +1,124 @@
+Ximport json
+from pathlib import Path
+from difflib import SequenceMatcher
+
+import torch
+from transformers import AutoTokenizer, AutoModelForCausalLM
+
+# --- CONFIG ---
+
+BASE_MODEL_ID = "Qwen/Qwen1.5-1.8B"
+DEVICE = "mps" if torch.backends.mps.is_available() else "cpu"
+
+AGENT_FILE_MAP = {
+    "dev_raw": "agent_dev_raw.jsonl",
+    "couleur": "agent_couleur.jsonl",
+}
+
+_tokenizer = None
+_model = None
+
+
+def get_model():
+    global _tokenizer, _model
+    if _tokenizer is None or _model is None:
+        print(f"🔌 Chargement du modèle de base : {BASE_MODEL_ID}")
+        _tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL_ID)
+        _model = AutoModelForCausalLM.from_pretrained(
+            BASE_MODEL_ID,
+            torch_dtype=torch.float16 if DEVICE != "cpu" else torch.float32,
+        ).to(DEVICE)
+        _model.eval()
+    return _tokenizer, _model
+
+
+def load_agent_dataset(agent_name: str):
+    if agent_name not in AGENT_FILE_MAP:
+        raise ValueError(f"Agent inconnu: {agent_name}")
+
+    path = Path(AGENT_FILE_MAP[agent_name])
+    if not path.exists():
+        raise FileNotFoundError(f"Fichier dataset introuvable: {path}")
+
+    rows = []
+    with path.open("r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            rows.append(json.loads(line))
+    return rows
+
+
+def similarity(a: str, b: str) -> float:
+    return SequenceMatcher(None, a.lower(), b.lower()).ratio()
+
+
+def retrieve_examples(agent_name: str, question: str, k: int = 5):
+    dataset = load_agent_dataset(agent_name)
+    scored = []
+    for row in dataset:
+        instr = row.get("instruction", "")
+        score = similarity(question, instr)
+        scored.append((score, row))
+
+    scored.sort(key=lambda x: x[0], reverse=True)
+    top = [r for _, r in scored[:k]]
+    return top
+
+
+def build_prompt(agent_name: str, question: str, examples):
+    header = (
+        f"Vous êtes l'expert « {agent_name} » d'Orélia. "
+        "Vous répondez en français, de manière claire, structurée, pédagogique, "
+        "avec des conseils concrets et directement applicables.\n\n"
+    )
+
+    context_lines = ["### Exemples de questions/réponses de référence :\n"]
+    for i, row in enumerate(examples, start=1):
+        instr = row.get("instruction", "").strip()
+        resp = row.get("response", "").strip()
+        context_lines.append(f"Exemple {i} - Question : {instr}\nRéponse : {resp}\n")
+
+    context = "\n".join(context_lines)
+
+    user_block = (
+        "### Instruction:\n"
+        f"{question}\n\n"
+        "### Réponse:\n"
+    )
+
+    return header + context + "\n" + user_block
+
+
+def ask_agent(agent_name: str, question: str, max_new_tokens: int = 256) -> str:
+    tokenizer, model = get_model()
+    examples = retrieve_examples(agent_name, question, k=5)
+    prompt = build_prompt(agent_name, question, examples)
+
+    inputs = tokenizer(prompt, return_tensors="pt").to(DEVICE)
+
+    with torch.no_grad():
+        output = model.generate(
+            **inputs,
+            max_new_tokens=max_new_tokens,
+            do_sample=False,
+            pad_token_id=tokenizer.eos_token_id,
+        )
+
+    text = tokenizer.decode(output[0], skip_special_tokens=True)
+
+    if "### Réponse:" in text:
+        answer = text.split("### Réponse:", 1)[1].strip()
+    else:
+        answer = text[len(prompt):].strip()
+
+    return answer
+
+
+if __name__ == "__main__":
+    question = "Comment récupérer un ciel cramé en RAW ?"
+    response = ask_agent("dev_raw", question)
+    print("\n💬 Question :", question)
+    print("\n🧠 Réponse de l'agent dev_raw (RAG light) :\n")
+    print(response)

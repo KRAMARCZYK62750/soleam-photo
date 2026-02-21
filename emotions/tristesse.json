@@ -1,0 +1,78 @@
+{
+  "id": "emotion_tristesse_v1",
+  "name": "tristesse",
+  "family": "descente",
+  "valence": -0.6,
+  "arousal": 0.30,
+  "description": "Mouvement lent et coulant, comme une pluie intérieure. La tristesse est un poids doux qui descend, une onde longue et profonde, presque méditative. Elle étire le temps et ouvre l’espace.",
+  "visual": {
+    "primary_color": "#3B5A7A",
+    "secondary_color": "#8AA7C2",
+    "brightness": 0.35,
+    "contrast": 0.40,
+    "opacity": 0.85,
+    "texture": "fluide, veloutée, légèrement granuleuse",
+    "shape": "lignes verticales, coulures, halos diffus",
+    "edges": "adoucis, flous"
+  },
+  "motion": {
+    "type": "descente",
+    "origin": "haut_du_champ",
+    "direction": "vers le bas",
+    "speed": 0.25,
+    "acceleration": 0.05,
+    "rhythm": "longues ondes lentes",
+    "density": 0.55,
+    "viscosity": 0.65,
+    "micro_vibrations": {
+      "frequency_hz": 1.2,
+      "amplitude": 0.10,
+      "pattern": "régulier, lent"
+    }
+  },
+  "sound": {
+    "timbre": "chaud mais voilé",
+    "base_frequency_hz": 174,
+    "harmonics_level": 0.25,
+    "attack": 0.10,
+    "decay": 0.6,
+    "rumble": 0.30,
+    "pattern": "notes longues, glissando lent, échos doux"
+  },
+  "body_mapping": {
+    "pressure": "poitrine lourde, gorge serrée",
+    "temperature": "tiède-froid",
+    "breath": "long, ralenti",
+    "muscles": "relâchés, affaissés"
+  },
+  "cognitive_colors": {
+    "focus": "large, défocalisé",
+    "narrative": "perte, nostalgie, réflexion",
+    "tendance_action": "ralentissement, retrait"
+  },
+  "synesthetic_profile": {
+    "kandinsky_reference": "Bleus profonds, formes étirées verticales, atmosphère silencieuse",
+    "geometry": "lignes longues, arcs étirés",
+    "intensity_palette": [
+      "#2E4660",
+      "#3B5A7A",
+      "#6C91AF",
+      "#B7C7DC"
+    ]
+  },
+  "tags": [
+    "tristesse",
+    "descente",
+    "onde lente",
+    "flux",
+    "gravité douce"
+  ],
+  "embedding_hint": {
+    "text_for_embedding": "La tristesse est un mouvement descendant, fluide et profond, une pluie intérieure lente et douce, avec une tonalité bleue et un rythme étiré.",
+    "vector_space": "emotions_semantic_384d",
+    "qdrant_collection": "emotions_orelia"
+  },
+  "version": 1,
+  "created_by": "frederic_and_orelia",
+  "created_at": "2025-11-30"
+}

@@ -1,0 +1,475 @@
+[
+  {
+    "instruction": "J'ai un flash cobra et un plafond blanc. Comment dois-je l'orienter pour un portrait ?",
+    "response": "Orientez la tête du flash vers le **plafond blanc** à un angle de **45–60°** et légèrement derrière vous. Le plafond agira comme une immense *softbox*, diffusant la lumière sur le sujet. Cela crée une lumière douce et uniforme, réduisant les ombres dures. **Réglages recommandés** : commencez à 1/4 ou 1/2 puissance pour éviter la surexposition. Si le plafond est trop haut (>3m), utilisez un **mur blanc** comme surface de rebond. Ajoutez un **dôme diffuseur** sur le flash pour adoucir la lumière. Exemple de réglage : ISO 200, f/4, 1/125s.",
+    "metadata": {
+      "theme": "lighting_technique",
+      "gear": "speedlight",
+      "location": "indoor",
+      "difficulty": "intermediate",
+      "lighting": "bounce",
+      "keywords": [
+        "flash",
+        "plafond",
+        "diffusion",
+        "portrait"
+      ]
+    }
+  },
+  {
+    "instruction": "Quelle est la 'meilleure' focale pour un portrait serré (tête et épaules) ?",
+    "response": "Le **85mm** ou le **105mm** (en équivalent plein format) sont idéaux. Ces focales compressent légèrement la perspective et sont suffisamment éloignées du sujet pour éviter la déformation du visage, produisant un rendu flatteur. Pour les capteurs APS-C, un **50mm** (équivalent ~75mm) ou **60mm** (équivalent ~90mm) est un bon compromis. À 85mm, placez-vous à **1,5–2m** du sujet pour éviter la déformation. Alternative : **135mm** pour une compression encore plus marquée (idéal pour les portraits 'glamour').",
+    "metadata": {
+      "theme": "gear_selection",
+      "gear": "lens",
+      "location": "any",
+      "difficulty": "basic",
+      "keywords": [
+        "focale",
+        "85mm",
+        "105mm",
+        "portrait"
+      ]
+    }
+  },
+  {
+    "instruction": "J'ai un arrière-plan trop sombre par rapport à mon sujet éclairé. Comment corriger ça en studio ?",
+    "response": "Ajoutez une **lumière de fond (*Background Light*)** pour éclaircir le fond et le séparer du sujet. Placez-la à **1–2m derrière le sujet**, pointée vers le fond. Utilisez un **gel coloré** (bleu, orange) pour un effet créatif. **Solution sans matériel supplémentaire** : éloignez le sujet du fond et utilisez un **éclairage latéral** pour créer une séparation naturelle.",
+    "metadata": {
+      "theme": "lighting_setup",
+      "gear": "background_light",
+      "location": "studio",
+      "difficulty": "intermediate",
+      "keywords": [
+        "arrière-plan",
+        "séparation",
+        "éclairage"
+      ]
+    }
+  },
+  {
+    "instruction": "Comment diriger un modèle pour qu'il ait une pose naturelle et non rigide ?",
+    "response": "Donnez des instructions basées sur des **actions** plutôt que sur des poses statiques (ex: 'Penche-toi comme si tu écoutais un secret', 'Regarde par la fenêtre'). Demandez au modèle de déplacer légèrement le poids sur une seule jambe pour un look plus dynamique ('S Curve'). **Techniques pour briser la raideur** : demandez-lui de bouger légèrement (ex: balancer les épaules, toucher ses cheveux). Utilisez de la **musique** pour le détendre.",
+    "metadata": {
+      "theme": "posing_technique",
+      "gear": "none",
+      "location": "any",
+      "difficulty": "basic",
+      "keywords": [
+        "pose",
+        "modèle",
+        "naturel"
+      ]
+    }
+  },
+  {
+    "instruction": "Qu'est-ce que le 'Beauty Dish' et quand l'utiliser en portrait ?",
+    "response": "Le *Beauty Dish* est un modeleur de lumière qui crée une lumière semi-dure et légèrement contrastée avec un anneau lumineux caractéristique dans l'œil (*catchlight*). Il est parfait pour la **photographie de mode et de beauté** où les détails de la peau et des traits sont importants. **Positionnement** : placez-le **30–45° au-dessus du sujet** et légèrement de côté. Ajoutez une **grille** (*honeycomb*) pour un contrôle plus précis de la lumière.",
+    "metadata": {
+      "theme": "lighting_gear",
+      "gear": "beauty_dish",
+      "location": "studio",
+      "difficulty": "advanced",
+      "keywords": [
+        "éclairage",
+        "mode",
+        "beauté",
+        "catchlight"
+      ]
+    }
+  },
+  {
+    "instruction": "Comment éviter la brillance excessive sur le front d'un modèle ?",
+    "response": "Utilisez de la **poudre matifiante** (souvent transparente) sur les zones grasses. En studio, changez la direction de la lumière pour qu'elle ne soit pas trop frontale (lumière de côté ou légèrement au-dessus). **Solutions en post-traitement** : utilisez l’outil **Tampon de clonage** (Photoshop) pour atténuer les reflets. **Éclairage alternatif** : **Lumière en papillon** (*Butterfly Lighting*) : placez la source haute et centrale pour minimiser les reflets frontaux.",
+    "metadata": {
+      "theme": "lighting_issue",
+      "gear": "none",
+      "location": "studio",
+      "difficulty": "intermediate",
+      "keywords": [
+        "brillance",
+        "front",
+        "poudre",
+        "éclairage"
+      ]
+    }
+  },
+  {
+    "instruction": "J'ai photographié avec un f/1.4, mais la mise au point sur le nez est nette et les yeux sont flous. Que s'est-il passé ?",
+    "response": "C'est la conséquence d'une **profondeur de champ extrêmement faible**. Votre point de mise au point était accidentellement sur le nez. À f/1.4, même quelques millimètres suffisent. **Techniques de mise au point** : utilisez l’**Eye-AF** (Autofocus sur l'œil) ou fermez légèrement l'ouverture à f/2.8. En manuel, faites la mise au point sur l’œil le plus proche. **Astuce** : utilisez le **mode rafale** et sélectionnez la meilleure image.",
+    "metadata": {
+      "theme": "focus_technique",
+      "gear": "lens",
+      "location": "any",
+      "difficulty": "intermediate",
+      "keywords": [
+        "profondeur de champ",
+        "mise au point",
+        "f/1.4"
+      ]
+    }
+  },
+  {
+    "instruction": "Qu'est-ce que la synchronisation haute vitesse (HSS) et pourquoi en ai-je besoin en extérieur ?",
+    "response": "Le HSS (High-Speed Sync) permet d'utiliser le flash à une **vitesse d'obturation supérieure à la vitesse de synchronisation maximale** de votre appareil (souvent 1/200s). Ceci est nécessaire en plein jour pour assombrir le ciel (ou le fond) tout en utilisant le flash pour exposer correctement le sujet. **Quand l’utiliser** : en extérieur en plein jour (ex: f/2.8, 1/1000s, ISO 100). **Limites** : réduit la **puissance effective du flash** (perte de 1–2 IL selon les modèles).",
+    "metadata": {
+      "theme": "flash_technique",
+      "gear": "speedlight",
+      "location": "outdoor",
+      "difficulty": "advanced",
+      "keywords": [
+        "HSS",
+        "flash",
+        "plein jour",
+        "vitesse"
+      ]
+    }
+  },
+  {
+    "instruction": "Comment utiliser un réflecteur pour un portrait en extérieur ?",
+    "response": "Placez le réflecteur (côté blanc ou argenté) pour **rediriger la lumière du soleil** vers les zones d'ombre du sujet (sous le menton, dans les yeux). Il sert de lumière de remplissage (*Fill Light*) pour adoucir les ombres créées par la lumière principale. **Choix de la surface** : **Blanc** : lumière douce et naturelle. **Argenté** : lumière plus intense. **Or** : réchauffe les tons. **Positionnement** : **Sous le menton** pour éclairer les yeux (*catchlight*). **Sur le côté** pour adoucir les ombres du nez.",
+    "metadata": {
+      "theme": "lighting_accessory",
+      "gear": "reflector",
+      "location": "outdoor",
+      "difficulty": "basic",
+      "keywords": [
+        "réflecteur",
+        "extérieur",
+        "lumière naturelle"
+      ]
+    }
+  },
+  {
+    "instruction": "Mon sujet a une dominante de couleur rouge sur le visage après le flash. Pourquoi ?",
+    "response": "C'est souvent dû à un **mélange de lumière**. Votre balance des blancs était réglée sur le flash (lumière blanche/bleue) mais le fond était éclairé par des lumières chaudes (ampoules incandescentes). **Réglages précis** : balance des blancs manuelle à **5000K** (flash) + gel **CTO 1/4** pour équilibrer avec des ampoules tungstène (3200K). **Solution logicielle** : corrigez la dominante avec l’outil **Balance des couleurs** (Photoshop/Lightroom).",
+    "metadata": {
+      "theme": "color_issue",
+      "gear": "flash",
+      "location": "indoor",
+      "difficulty": "intermediate",
+      "keywords": [
+        "dominante",
+        "couleur",
+        "balance des blancs",
+        "gel"
+      ]
+    }
+  },
+  {
+    "instruction": "C'est quoi un 'Clamshell Lighting' ?",
+    "response": "Le *Clamshell Lighting* (éclairage en coquille) est une configuration de studio utilisant **deux sources de lumière** : une au-dessus et une au-dessous du visage. La lumière inférieure agit comme un réflecteur, éliminant presque toutes les ombres sous le menton et le nez pour un look très glamour. **Matériel recommandé** : **Softbox 60x60cm** pour la lumière supérieure. **Réflecteur blanc** ou **stripbox** pour la lumière inférieure. **Ratio de puissance** : lumière supérieure : **100%**. Lumière inférieure : **30–50%** pour éviter un effet 'plat'.",
+    "metadata": {
+      "theme": "lighting_setup",
+      "gear": "softbox, reflector",
+      "location": "studio",
+      "difficulty": "advanced",
+      "keywords": [
+        "clamshell",
+        "glamour",
+        "éclairage",
+        "studio"
+      ]
+    }
+  },
+  {
+    "instruction": "Comment obtenir l'effet 'Dodge and Burn' en post-traitement sur un portrait ?",
+    "response": "Le *Dodge and Burn* (Éclaircir et Brûler) est une technique de micro-retouche visant à éclaircir des zones (Dodge) et assombrir d'autres (Burn) pour accentuer la forme, le contour et la texture, en particulier sur le visage. **Bonnes pratiques** : travaillez sur un **calque vide** en mode *Overlay* ou *Soft Light* avec un pinceau à **opacité réduite (10–20%)**. **Évitez** les bords durs : utilisez un pinceau **doux et progressif**.",
+    "metadata": {
+      "theme": "post_processing",
+      "gear": "software",
+      "location": "any",
+      "difficulty": "advanced",
+      "keywords": [
+        "retouche",
+        "peau",
+        "Dodge and Burn",
+        "Photoshop"
+      ]
+    }
+  },
+  {
+    "instruction": "Je veux créer une silhouette dramatique de mon modèle. Quels réglages utiliser ?",
+    "response": "Placez le modèle directement **devant la source de lumière** (soleil couchant, grande lumière studio). Mesurez la lumière (mesure spot) sur la source lumineuse et non sur le modèle. Cela sous-exposera le modèle en une silhouette noire. **Réglages créatifs** : **Sous-exposez de -1 à -2 EV** pour un noir profond. Utilisez un **flash arrière** (avec gel coloré) pour un contour lumineux.",
+    "metadata": {
+      "theme": "creative_effect",
+      "gear": "light",
+      "location": "any",
+      "difficulty": "intermediate",
+      "keywords": [
+        "silhouette",
+        "dramatique",
+        "contre-jour"
+      ]
+    }
+  },
+  {
+    "instruction": "Quelle est la meilleure vitesse d'obturation pour un portrait statique en studio ?",
+    "response": "Avec un trépied, la vitesse n'est pas critique (ex: 1/60s). Cependant, si vous utilisez le flash, la vitesse doit être **égale ou inférieure à la vitesse de synchronisation maximale** de votre appareil (souvent 1/200s) pour que tout le capteur soit exposé par le flash. **Sans flash** : **1/125s** est un bon compromis pour éviter le flou de mouvement. **Avec flash** : vérifiez la **vitesse de syncro** de votre boîtier (ex: 1/250s pour certains Sony/Nikon).",
+    "metadata": {
+      "theme": "camera_settings",
+      "gear": "any",
+      "location": "studio",
+      "difficulty": "basic",
+      "keywords": [
+        "vitesse",
+        "obturation",
+        "flash",
+        "studio"
+      ]
+    }
+  },
+  {
+    "instruction": "Comment rendre les yeux plus 'vifs' en portrait ?",
+    "response": "Assurez-vous d'avoir un bon *catchlight* (reflet de la lumière dans l'œil). En post-traitement, vous pouvez **éclaircir légèrement l'iris** (Dodge) et augmenter le contraste autour de l'œil, mais faites attention à ne pas sur-traiter. **Astuce de prise de vue** : placez une **petite LED** près de l’objectif pour créer un *catchlight* naturel. **Post-traitement** : augmentez légèrement la **saturation des bleus/verts** dans les yeux.",
+    "metadata": {
+      "theme": "post_processing",
+      "gear": "software",
+      "location": "any",
+      "difficulty": "intermediate",
+      "keywords": [
+        "yeux",
+        "vifs",
+        "catchlight",
+        "retouche"
+      ]
+    }
+  },
+  {
+    "instruction": "Qu'est-ce que le 'Bokeh à la Vanille' ?",
+    "response": "C'est un terme informel pour décrire un flou d'arrière-plan (*Bokeh*) **lisse et agréable**, sans bordures dures autour des points lumineux, souvent associé aux objectifs haut de gamme à grande ouverture. **Objectifs recommandés** : **85mm f/1.4**, **105mm f/1.8**, **135mm f/2**. **Réglages** : ouvrez à **f/1.4–f/2** et éloignez le sujet de l’arrière-plan.",
+    "metadata": {
+      "theme": "creative_effect",
+      "gear": "lens",
+      "location": "any",
+      "difficulty": "basic",
+      "keywords": [
+        "bokeh",
+        "flou",
+        "objectif",
+        "ouverture"
+      ]
+    }
+  },
+  {
+    "instruction": "Comment photographier des portraits en basse lumière avec juste une bougie ?",
+    "response": "Utilisez la **plus grande ouverture** de votre objectif (f/1.4, f/1.8). Réglez l'ISO à un niveau élevé (3200-6400) et la Balance des Blancs sur 'Tungstène' ou manuellement pour capturer les tons chauds. Placez la bougie près du visage pour des ombres dramatiques (*chiaroscuro*). **Stabilisation** : utilisez un **trépied** ou posez l’appareil sur une surface stable. **Composition** : cadrage serré sur le visage avec la bougie **hors champ** pour un éclairage latéral.",
+    "metadata": {
+      "theme": "low_light_technique",
+      "gear": "candle",
+      "location": "indoor",
+      "difficulty": "advanced",
+      "keywords": [
+        "basse lumière",
+        "bougie",
+        "ambiance",
+        "chiaroscuro"
+      ]
+    }
+  },
+  {
+    "instruction": "Est-ce qu'un objectif 35mm est bon pour le portrait ?",
+    "response": "Le 35mm est plus large que le 85mm idéal. Il est excellent pour le **portrait en contexte** (portrait environnemental) car il capture le sujet et son environnement sans trop de déformation. **Distorsion** : évitez les **bords du cadre** pour les visages (risque de déformation). **Utilisation créative** : parfait pour les **portraits de groupe** ou les scènes avec contexte.",
+    "metadata": {
+      "theme": "gear_selection",
+      "gear": "lens",
+      "location": "any",
+      "difficulty": "basic",
+      "keywords": [
+        "35mm",
+        "portrait",
+        "environnement",
+        "objectif"
+      ]
+    }
+  },
+  {
+    "instruction": "Je veux photographier une femme enceinte. Quel conseil de pose donner ?",
+    "response": "Demandez-lui de **placer ses mains en forme de cœur ou de U** sur son ventre. Utilisez la **lumière de côté (side light)** pour accentuer les courbes et la forme du ventre. **Éclairage** : **Lumière douce** (softbox ou fenêtre) pour adoucir les ombres. **Cadrage** : **Plan américain** (mi-cuisses) pour mettre en valeur le ventre.",
+    "metadata": {
+      "theme": "posing_technique",
+      "gear": "none",
+      "location": "any",
+      "difficulty": "intermediate",
+      "keywords": [
+        "femme enceinte",
+        "pose",
+        "lumière",
+        "portrait"
+      ]
+    }
+  },
+  {
+    "instruction": "Quelle est la règle de composition pour les regards en portrait ?",
+    "response": "Laissez de l’**espace négatif** dans la direction où le sujet regarde. Si le sujet regarde vers la droite, cadrez-le à gauche pour donner à son regard un endroit où aller. S'il regarde directement l'objectif, centrez-le pour un impact maximal. **Exemples** : regard vers la **gauche** : cadrez à droite (et vice versa).",
+    "metadata": {
+      "theme": "composition_rule",
+      "gear": "none",
+      "location": "any",
+      "difficulty": "basic",
+      "keywords": [
+        "regard",
+        "composition",
+        "espace négatif"
+      ]
+    }
+  },
+  {
+    "instruction": "Qu'est-ce que la lumière 'split' en portrait ?",
+    "response": "La lumière *Split* (fendue) est une configuration où la lumière est positionnée de manière à **éclairer exactement la moitié du visage** et à laisser l'autre moitié dans l'ombre totale, créant un effet dramatique et graphique. **Positionnement** : la source doit être **à 90° du sujet** et à hauteur des yeux. **Effet dramatique** : ajoutez un **fond noir** pour accentuer le contraste.",
+    "metadata": {
+      "theme": "lighting_setup",
+      "gear": "light",
+      "location": "any",
+      "difficulty": "intermediate",
+      "keywords": [
+        "split lighting",
+        "dramatique",
+        "portrait"
+      ]
+    }
+  },
+  {
+    "instruction": "Comment éviter l'effet 'yeux rouges' ?",
+    "response": "L'effet yeux rouges est causé par le flash qui reflète les vaisseaux sanguins au fond de l'œil. **Solutions** : évitez le **flash direct frontal**. Utilisez le **rebond** ou éloignez le flash de l'axe de l'objectif. **Mode 'réduction yeux rouges'** : certains boîtiers ont un pré-flash pour réduire cet effet.",
+    "metadata": {
+      "theme": "flash_issue",
+      "gear": "speedlight",
+      "location": "any",
+      "difficulty": "basic",
+      "keywords": [
+        "yeux rouges",
+        "flash",
+        "rebond"
+      ]
+    }
+  },
+  {
+    "instruction": "Est-ce qu'un modèle doit toujours regarder l'objectif ?",
+    "response": "Non. Regarder l'objectif crée un contact direct et intime. Regarder ailleurs crée de l’**ambiance** et de l’**intrigue**, invitant le spectateur à se demander ce que le sujet regarde ou pense. **Quand regarder l’objectif** : pour un **contact intime** (portraits corporatifs, mariages). **Quand regarder ailleurs** : pour raconter une **histoire** (ex: regard vers un enfant, un paysage).",
+    "metadata": {
+      "theme": "composition_rule",
+      "gear": "none",
+      "location": "any",
+      "difficulty": "basic",
+      "keywords": [
+        "regard",
+        "objectif",
+        "ambiance",
+        "histoire"
+      ]
+    }
+  },
+  {
+    "instruction": "Comment utiliser la lumière du soleil pour créer des motifs et des ombres sur un visage (Rembrandt Lighting) ?",
+    "response": "Le *Rembrandt Lighting* est obtenu en plaçant la source de lumière (le soleil près d'une fenêtre) de manière à laisser un **petit triangle de lumière** sur la joue opposée à la source lumineuse, sous l'œil. **Positionnement** : la source doit être **45° sur le côté** et **30° au-dessus** du sujet. **Vérification** : le triangle ne doit pas dépasser la **largeur du nez**.",
+    "metadata": {
+      "theme": "lighting_technique",
+      "gear": "natural light",
+      "location": "indoor/outdoor",
+      "difficulty": "intermediate",
+      "keywords": [
+        "Rembrandt",
+        "éclairage",
+        "triangle",
+        "portrait"
+      ]
+    }
+  },
+  {
+    "instruction": "Quelle est la différence entre une softbox et un parapluie ?",
+    "response": "Une **softbox** (boîte à lumière) dirige la lumière dans une forme plus contrôlée et rectangulaire, avec une perte de lumière minimale. Le **parapluie** diffuse la lumière plus largement (surtout s'il est utilisé en rebond) mais donne moins de contrôle directionnel. **Choix selon le besoin** : **Softbox** : contrôle précis (portraits corporatifs). **Parapluie** : éclairage rapide et portable (reportage).",
+    "metadata": {
+      "theme": "lighting_gear",
+      "gear": "softbox, umbrella",
+      "location": "any",
+      "difficulty": "basic",
+      "keywords": [
+        "softbox",
+        "parapluie",
+        "éclairage",
+        "diffusion"
+      ]
+    }
+  },
+  {
+    "instruction": "Mon sujet porte des lunettes. Comment éviter le reflet de mon flash dans les verres ?",
+    "response": "Demandez au sujet d'incliner légèrement la tête (en haut ou en bas) pour que les lunettes ne soient pas perpendiculaires à l'objectif. Si vous utilisez un flash, faites-le rebondir ou déplacez la source de lumière sur le côté pour que l'angle de réflexion soit hors du champ. **Autres solutions** : utilisez une **source de lumière large** (ex: fenêtre) pour réduire les reflets. **Polariseur** sur l’objectif (atténue les reflets).",
+    "metadata": {
+      "theme": "lighting_issue",
+      "gear": "speedlight",
+      "location": "any",
+      "difficulty": "intermediate",
+      "keywords": [
+        "lunettes",
+        "reflet",
+        "flash",
+        "polariseur"
+      ]
+    }
+  },
+  {
+    "instruction": "Comment obtenir un effet 'flou cinématique' pour un portrait vidéo ?",
+    "response": "Utilisez une grande ouverture (f/1.4–f/2.8) et respectez la **règle des 180 degrés** pour la vitesse d'obturation ($1 / (2 \\times \\text{Framerate})$, soit 1/50s pour 24fps). Cela donne un flou de mouvement (motion blur) agréable et un flou d'arrière-plan (*shallow DoF*). **Vitesse d’obturation** : **1/50s** pour 24fps, **1/60s** pour 30fps. **Stabilisation** : utilisez un **gimbal** ou un **stabilisateur** pour des mouvements fluides.",
+    "metadata": {
+      "theme": "video_technique",
+      "gear": "lens, stabilizer",
+      "location": "any",
+      "difficulty": "advanced",
+      "keywords": [
+        "flou cinématique",
+        "vidéo",
+        "ouverture",
+        "stabilisation"
+      ]
+    }
+  },
+  {
+    "instruction": "Qu'est-ce qu'un *Fill Light* ?",
+    "response": "Le *Fill Light* (lumière de remplissage) est une lumière secondaire ou un réflecteur utilisé pour **éclaircir les ombres** créées par la lumière principale (*Key Light*). Il réduit le contraste de la scène et rend l'image moins dramatique, plus uniforme. **Ratio recommandé** : **1:2 ou 1:3** (Fill:Key) pour un éclairage naturel. **Matériel** : **Réflecteur** (économique) ou **softbox** (plus professionnel).",
+    "metadata": {
+      "theme": "lighting_setup",
+      "gear": "fill light",
+      "location": "any",
+      "difficulty": "basic",
+      "keywords": [
+        "fill light",
+        "éclairage",
+        "ombres",
+        "ratio"
+      ]
+    }
+  },
+  {
+    "instruction": "J'utilise un flash, mais ma photo a l'air plate. Pourquoi ?",
+    "response": "La lumière est probablement trop **frontale et directe**. Pour ajouter de la dimension (du volume) au visage, déplacez le flash ou la source de lumière sur le **côté** du sujet. **Techniques pour ajouter du volume** : **Deux sources** : une clé (45°) + une remplissage (opposée). **Gélifiez** la lumière clé pour un effet coloré.",
+    "metadata": {
+      "theme": "lighting_issue",
+      "gear": "speedlight",
+      "location": "any",
+      "difficulty": "intermediate",
+      "keywords": [
+        "flash",
+        "plat",
+        "volume",
+        "éclairage"
+      ]
+    }
+  },
+  {
+    "instruction": "Comment retoucher les imperfections de la peau sans lui donner un aspect plastique ?",
+    "response": "Utilisez la technique de la **Séparation de Fréquence (*Frequency Separation*)**. Elle permet de retoucher les tons et les couleurs (fréquence basse) et les textures (fréquence haute) séparément, conservant ainsi la texture naturelle de la peau tout en enlevant les imperfections. **Étapes clés** : 1. Dupliquez le calque en **2 exemplaires**. 2. **Flou gaussien** (8–12px) sur le calque du bas (fréquence basse). 3. **Passe-haut** (2–5px) sur le calque du haut (fréquence haute). 4. Peignez les corrections sur le calque du haut.",
+    "metadata": {
+      "theme": "post_processing",
+      "gear": "software",
+      "location": "any",
+      "difficulty": "advanced",
+      "keywords": [
+        "retouche",
+        "peau",
+        "frequency separation",
+        "Photoshop"
+      ]
+    }
+  }
+]

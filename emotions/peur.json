@@ -1,0 +1,78 @@
+{
+  "id": "emotion_peur_v1",
+  "name": "peur",
+  "family": "contraction",
+  "valence": -0.7,
+  "arousal": 0.85,
+  "description": "Tension froide qui se resserre vers un point central. Vibrations rapides, fines, comme une matière translucide parcourue de micro-impulsions glacées. La peur réduit l’espace, rétrécit le champ.",
+  "visual": {
+    "primary_color": "#3A4A6A",
+    "secondary_color": "#8FA3C1",
+    "brightness": 0.25,
+    "contrast": 0.80,
+    "opacity": 0.70,
+    "texture": "fine, nerveuse, translucide",
+    "shape": "pointes, filaments contractés",
+    "edges": "irréguliers, légèrement tremblés"
+  },
+  "motion": {
+    "type": "contraction",
+    "origin": "bord_du_champ",
+    "direction": "centripète",
+    "speed": 0.9,
+    "acceleration": 0.15,
+    "rhythm": "pulsations rapides",
+    "density": 0.65,
+    "viscosity": 0.05,
+    "micro_vibrations": {
+      "frequency_hz": 12.0,
+      "amplitude": 0.15,
+      "pattern": "irregulier"
+    }
+  },
+  "sound": {
+    "timbre": "froid, métallique léger",
+    "base_frequency_hz": 684,
+    "harmonics_level": 0.65,
+    "attack": 0.05,
+    "decay": 0.2,
+    "rumble": 0.15,
+    "pattern": "battements irréguliers, souffle fin en arrière-plan"
+  },
+  "body_mapping": {
+    "pressure": "poitrine serrée, ventre contracté",
+    "temperature": "froid localisé",
+    "breath": "court, rapide",
+    "muscles": "micro-tensions, épaules remontées"
+  },
+  "cognitive_colors": {
+    "focus": "rétréci, hyper sélectif",
+    "narrative": "risque, anticipation négative",
+    "tendance_action": "immobilisation ou fuite"
+  },
+  "synesthetic_profile": {
+    "kandinsky_reference": "Bleus froids profonds, angles aigus, structures resserrées",
+    "geometry": "triangles, lignes cassées",
+    "intensity_palette": [
+      "#2E3E55",
+      "#3A4A6A",
+      "#6B7C98",
+      "#B9C6DC"
+    ]
+  },
+  "tags": [
+    "peur",
+    "contraction",
+    "vibration",
+    "fuite",
+    "tension"
+  ],
+  "embedding_hint": {
+    "text_for_embedding": "La peur est une contraction froide, un mouvement centripète avec des vibrations nerveuses, un souffle court et une tension glacée.",
+    "vector_space": "emotions_semantic_384d",
+    "qdrant_collection": "emotions_orelia"
+  },
+  "version": 1,
+  "created_by": "frederic_and_orelia",
+  "created_at": "2025-11-30"
+}

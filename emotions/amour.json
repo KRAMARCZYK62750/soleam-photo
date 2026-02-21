@@ -1,0 +1,203 @@
+{
+  "name": "amour",
+  "family": "connexion_sociale",
+  "description": "Émotion complexe associant attachement profond, bienveillance et désir de proximité émotionnelle ou physique. L’amour active des circuits cérébraux liés à la récompense, à l’empathie et à la réduction du stress.",
+  "valence": 0.95,
+  "arousal": 0.5,
+  "core_function": "Créer et maintenir des liens profonds et durables, favoriser l’attachement sécurisant, la coopération, et la survie du groupe (théorie de l’attachement, Bowlby). Stimule les comportements altruistes et la protection mutuelle.",
+  "scientific_grounding": {
+    "neurotransmitters": ["oxytocine", "dopamine", "sérotonine"],
+    "brain_areas": ["cortex préfrontal", "noyau accumbens", "aire tegmentale ventrale", "insula antérieure"],
+    "evolutionary_role": "Renforce la cohésion sociale, la reproduction, et la survie des descendants."
+  },
+  "typical_triggers": [
+    {
+      "type": "interaction",
+      "examples": [
+        "contact visuel prolongé avec une personne aimée",
+        "étreintes ou caresses (stimulation des récepteurs cutanés à pression lente, fibres C-tactiles)",
+        "partage de moments vulnérables ou intimes",
+        "souvenirs émotionnels forts (ex. : rituels, anniversaires)"
+      ]
+    },
+    {
+      "type": "symbolique",
+      "examples": [
+        "objets ou lieux chargés de mémoire affective (ex. : une chanson, un vêtement)",
+        "gestes de sacrifice ou de dévouement perçus"
+      ]
+    },
+    {
+      "type": "biologique",
+      "examples": [
+        "odeurs corporelles familières (phéromones, études sur le complexe majeur d’histocompatibilité)",
+        "voix douce ou rires partagés"
+      ]
+    }
+  ],
+  "body_simulation": {
+    "breath": {
+      "pattern": "profond, diaphragmatique, synchronisé avec la personne aimée (phénomène de 'respiration mirroring')",
+      "effect": "ralentissement du rythme cardiaque (cohérence cardiaque)"
+    },
+    "heart_rate": {
+      "pattern": "légèrement augmenté (5-10 bpm au-dessus de la normale), mais régulier",
+      "variability": "haute (signe de résilience physiologique)"
+    },
+    "muscle_tension": "faible, surtout au niveau du visage (sourcil légèrement abaissé, sourire de Duchenne)",
+    "skin_response": "température cutanée augmentée (vasodilatation, surtout au visage et aux mains)",
+    "hormonal_proxies": [
+      {
+        "hormone": "oxytocine",
+        "effect": "renforce la confiance et réduit la peur sociale"
+      },
+      {
+        "hormone": "baisse du cortisol",
+        "effect": "diminution du stress et sensation de sécurité"
+      },
+      {
+        "hormone": "dopamine",
+        "effect": "sentiment de récompense et de motivation à maintenir le lien"
+      }
+    ],
+    "posture": "ouverte, inclinée vers l’autre, gestes lents et fluides"
+  },
+  "visual_signature": {
+    "base_color": {
+      "hex": "#FFB3C6",
+      "psychology": "rose doux : associé à la tendresse et à la chaleur (études sur la perception des couleurs et émotions)"
+    },
+    "secondary_colors": [
+      {
+        "hex": "#FFD1A8",
+        "role": "évoque la douceur et la lumière du coucher de soleil (métaphore de chaleur)"
+      },
+      {
+        "hex": "#FFF0E6",
+        "role": "nuance laiteuse pour suggérer la pureté et la sécurité"
+      }
+    ],
+    "movement": {
+      "type": "ondes concentriques douces, pulsatiles",
+      "direction": "du centre vers l’extérieur, comme des cercles dans l’eau",
+      "speed": "lent (0.5-1 Hz), synchronisé avec une respiration calme"
+    },
+    "density": "fluide, presque liquide, avec une sensation de chaleur diffuse",
+    "texture": {
+      "tactile": "soyeuse, comme un tissu léger (métaphore de contact physique)",
+      "visual": "légèrement luminescente, với des reflets irisés (évoque la vitalité)"
+    },
+    "inner_image": {
+      "description": "une source de lumière rosée et dorée au centre de la poitrine, qui irradie en halos successifs. Les halos deviennent plus transparents en périphérie, symbolisant l’expansion de l’attachement.",
+      "metaphor": "feu de camp intime qui réchauffe et éclaire sans brûler"
+    },
+    "cultural_symbols": [
+      "cœurs entrelacés (Occident)",
+      "fleurs de lotus (Asie, pureté et épanouissement)",
+      "nœuds infinis (Bouddhisme tibétain, liens éternels)"
+    ]
+  },
+  "sound_signature": {
+    "timbre": {
+      "instruments": ["violoncelle (cordes graves et chaudes)", "voix humaine (chuchotements ou chants polyphoniques)", "harpe (notes tenues)"],
+      "why": "les fréquences basses et moyennes activent le système nerveux parasympathique (études en musicothérapie)"
+    },
+    "rhythm": {
+      "tempo": "60-80 BPM (rythme cardiaque au repos ou légèrement excité)",
+      "pattern": "régulier, với de légères variations organiques (comme une respiration)"
+    },
+    "register": "médium-grave (200-500 Hz), rassurant et enveloppant",
+    "envelope": {
+      "attack": "doux (500 ms)",
+      "sustain": "long, với des modulations subtiles",
+      "release": "extinction très progressive (3-5 secondes), comme un écho"
+    },
+    "examples": [
+      "‘Spiegel im Spiegel’ d’Arvo Pärt (minimalisme émotionnel)",
+      "chants de berceuses traditionnelles (ex. : ‘Brahms’ Lullaby’)",
+      "sons de la nature : vagues, vent dans les feuilles"
+    ]
+  },
+  "kandinsky_mapping": {
+    "shapes": {
+      "primary": ["cercles", "ellipses", "spirales douces"],
+      "secondary": ["lignes courbes entrelacées"]
+    },
+    "composition": {
+      "layout": "formes centrales (cœur ou paire) entourées d’auras colorées graduelles",
+      "balance": "symétrique, équilibrée, sans tension visuelle"
+    },
+    "energy": {
+      "flow": "harmonie calme, mouvement centripète et centrifuge",
+      "contrasts": "faibles (transition douce entre les couleurs)"
+    },
+    "artistic_references": [
+      {
+        "artist": "Wassily Kandinsky",
+        "work": "'Composition VIII' (1923)",
+        "link": "utilisation de cercles et de couleurs chaudes pour évoquer l’harmonie"
+      },
+      {
+        "artist": "Yayoi Kusama",
+        "work": "'Infinity Mirrored Room – The Souls of Millions of Light Years Away'",
+        "link": "lumière infinie et enveloppante, métaphore de l’amour universel"
+      }
+    ],
+    "comment": "L’œuvre visuelle idéale pour l’amour serait un centre lumineux et chaud, avec des formes qui s’étendent vers l’extérieur sans jamais se briser. Peu d’angles, peu de ruptures : tout converge vers un foyer commun."
+  },
+  "vector_hint": {
+    "axes": {
+      "valence": 0.95,
+      "arousal": 0.5,
+      "social_bond": 1.0,
+      "threat_level": 0.0,
+      "temporal_orientation": 0.8
+    },
+    "interpretation": "L’amour se situe dans un espace émotionnel à la fois intense et stable, với une dimension temporelle forte (lien entre passé, présent et futur)."
+  },
+  "tags": [
+    "connexion",
+    "attachement",
+    "sécurité",
+    "chaleur",
+    "altruisme",
+    "résilience",
+    "intimité",
+    "vulnérabilité partagée",
+    "cohésion sociale"
+  ],
+  "practical_applications": {
+    "wellbeing": [
+      "pratiquer la 'cohérence cardiaque' với un partenaire (respiration synchronisée)",
+      "tenir un 'journal d’amour' (noter les moments de connexion quotidienne)"
+    ],
+    "art_therapy": [
+      "peindre des mandalas à deux (symbolise l’union)",
+      "créer une playlist partagée với des sons enveloppants"
+    ],
+    "social_design": [
+      "espaces architecturaux : sièges arrondis et éclairés chaudement (ex. : 'Love Lounge' de Studio Drift)",
+      "objets interactifs : coussins ou couvertures qui s’illuminent au contact"
+    ]
+  },
+  "cultural_variations": {
+    "western": "amour romantique (focus sur le couple, passion)",
+    "eastern": "amour comme devoir et harmonie familiale (ex. : Confucianisme)",
+    "indigenous": "amour communautaire (lien à la terre et au groupe, ex. : 'Aloha' à Hawaï)"
+  },
+  "philosophical_links": [
+    {
+      "thinker": "Erich Fromm",
+      "concept": "'L’Art d’aimer' (1956) : l’amour comme acte de volonté et de connaissance mutuelle"
+    },
+    {
+      "thinker": "Roland Barthes",
+      "concept": "'Fragments d’un discours amoureux' (1977) : l’amour comme langage et souffrance joyeuse"
+    }
+  ],
+  "potential_dysfunctions": {
+    "excess": "dépendance affective, perte d’identité individuelle",
+    "deficit": "isolement, dépression, anxiété d’attachement",
+    "ambivalence": "amour toxique (mélange d’attachement et de douleur)"
+  }
+}

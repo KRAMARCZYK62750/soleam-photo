@@ -1,0 +1,78 @@
+{
+  "id": "emotion_degout_v1",
+  "name": "dégout",
+  "family": "rejet",
+  "valence": -0.8,
+  "arousal": 0.55,
+  "description": "Le dégoût est une réaction de rejet immédiate. Le corps se ferme, recule et se contracte pour éviter une substance toxique ou une situation menaçante pour l’intégrité biologique ou morale.",
+  "visual": {
+    "primary_color": "#6A8F00",
+    "secondary_color": "#A8C83F",
+    "brightness": 0.50,
+    "contrast": 0.85,
+    "opacity": 0.75,
+    "texture": "granuleuse, acide, légèrement visqueuse",
+    "shape": "torsions, spirales inversées, éclaboussures irrégulières",
+    "edges": "irréguliers, agressifs"
+  },
+  "motion": {
+    "type": "rejet",
+    "origin": "centre_du_champ",
+    "direction": "vers l’arrière et sur les côtés",
+    "speed": 0.75,
+    "acceleration": 0.40,
+    "rhythm": "impulsions brèves",
+    "density": 0.90,
+    "viscosity": 0.80,
+    "micro_vibrations": {
+      "frequency_hz": 7.5,
+      "amplitude": 0.20,
+      "pattern": "irrégulier, saccadé"
+    }
+  },
+  "sound": {
+    "timbre": "acide, sec, nasillard",
+    "base_frequency_hz": 420,
+    "harmonics_level": 0.65,
+    "attack": 0.05,
+    "decay": 0.20,
+    "rumble": 0.15,
+    "pattern": "claquements brefs, mouvements de recul"
+  },
+  "body_mapping": {
+    "pressure": "haut du nez, lèvres retroussées",
+    "temperature": "léger froid",
+    "breath": "expiration brusque",
+    "muscles": "repli, tension courte"
+  },
+  "cognitive_colors": {
+    "focus": "hyper focalisation sur la source de dégoût",
+    "narrative": "rejet, évitement",
+    "tendance_action": "rapide mise à distance"
+  },
+  "synesthetic_profile": {
+    "kandinsky_reference": "formes anguleuses, verts acides, mouvement de répulsion",
+    "geometry": "spirales torsadées, angles irréguliers",
+    "intensity_palette": [
+      "#4F6700",
+      "#6A8F00",
+      "#A8C83F",
+      "#D2E494"
+    ]
+  },
+  "tags": [
+    "dégout",
+    "rejet",
+    "toxique",
+    "acide",
+    "répulsion"
+  ],
+  "embedding_hint": {
+    "text_for_embedding": "Le dégoût est un mouvement de rejet, torsion acide, contraction nasale, vert toxique, mouvement agressif et saccadé.",
+    "vector_space": "emotions_semantic_384d",
+    "qdrant_collection": "emotions_orelia"
+  },
+  "version": 1,
+  "created_by": "frederic_and_orelia",
+    "created_at": "2025-11-30"
+}
