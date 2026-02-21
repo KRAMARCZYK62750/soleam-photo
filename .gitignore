@@ -12,3 +12,11 @@ phi2_photo_lora_output/
 **/*.pth
 **/*.pt
 **/*.ckpt
+
+# ML artifacts (do not commit)
+phi2_photo_lora_output/
+*.safetensors
+*.pth
+*.pt
+*.bin
+*.ckpt
