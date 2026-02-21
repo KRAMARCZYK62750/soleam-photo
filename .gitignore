@@ -5,3 +5,10 @@ __pycache__/
 .venv/
 .env
 models/
+phi2_photo_lora_output/
+**/checkpoint-*/
+**/*.safetensors
+**/*.bin
+**/*.pth
+**/*.pt
+**/*.ckpt
